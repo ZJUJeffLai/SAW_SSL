@@ -5,7 +5,7 @@
 #########################################
 
 # Variables
-FOLDERNAME="result25_beta_0.99_100_100"
+FOLDERNAME="fix_100_100"
 DATASET="cifar10"       # "cifar10" for CIFAR-10, "cifar100" for CIFAR100
 BASEDIR="experiments"
 FOLDERDIR="${BASEDIR}/${DATASET}/FixMatch/${FOLDERNAME}"
@@ -57,7 +57,7 @@ DISTBL="gt_l"   # "uniform": To use Uniform Weights (All Ones, similar to defaul
                 # "gt_l"   : To use Ground Truth (Labeled) Class Distribution for Weighting Scheme (Used in Training)
 
 # Distribution used for Loss in Unlabeled Data
-DISTBU="gt" # "uniform": To use Uniform Weights (All Ones, similar to default FixMatch)  
+DISTBU="pseudo" # "uniform": To use Uniform Weights (All Ones, similar to default FixMatch)  
                 # "pseudo" : To use Pseudo-Label Distribution for Weighting Scheme
                 # "weak"   : To use Weakly Augmented Output Distribution for Weighting Scheme
                 # "strong" : To use Strongly Augmented Output Distribution for Weighting Scheme
