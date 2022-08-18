@@ -16,6 +16,6 @@ The main contributers for these codes are Henrry Gunawan and Zhengfeng Lai.
 ## Scripts
 We use "setup.sh" to set up the running environment on our server via Docker. But Conda is also working here as long as the above dependencies are set. 
 
-For running different settings, please refer to "train_example.sh" as one example to set all parameters. 
+For running different settings, please refer to "train_example.sh" as one example to set all parameters. One example of the output is like https://github.com/ZJUJeffLai/SAW_SSL/blob/main/testLog_FixMatch_100_100_cifar10.txt
 
 Contact: lzhengfeng[at]ucdavis.edu
